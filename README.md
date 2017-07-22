@@ -10,3 +10,4 @@ Each example adds a feature to the site.
 * Styling - How to add CSS
 * Javascript - How to add JavaScript
 * Forms - Add a safe form using WTForms
+* Bootstrap - Use twitter bootstrap to make it look nice
