@@ -1,0 +1,22 @@
+<html>
+    <head>
+	<title>Microsite</title>
+	<link rel="stylesheet" href="static/css/styles.css">
+    <script src="static/javascript/hello.js"></script>
+    </head>
+    <body>
+        <h1>{{ title }}</h1>
+        <p id="demo">Paragraph</p>
+        <button type="button" onclick='myFunction();'>Click here</button>
+        <br>
+        <br>
+        <br>
+        <form method="POST" action="/">
+            {{ form.csrf_token }}
+            {{ form.name.label }} {{ form.name(size=20) }}
+            <input type="submit" value="Go">
+        </form>
+        {{ text }}
+    </body>
+</html>
+
