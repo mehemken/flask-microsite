@@ -1,5 +1,6 @@
 # Virtualenv
-forms/sandbox
+*/sandbox
+*/static/fonts
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
