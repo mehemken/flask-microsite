@@ -1,8 +1,10 @@
 # How to build a single page site with Flask
 
-This repo contains some code and commentary for building a single page site with Flask. I've made the choice to go with Twitter Bootstrap as the sole provider of JavaScript.
+This repo contains some code and commentary for building a single page site with Flask. I've made the choice to go with Twitter Bootstrap as the main provider of JavaScript.
 
 Each example adds a feature to the site.
+
+### Part I
 
 * Basic - Hello world example
 * Templating - how to render a page in html
@@ -11,6 +13,13 @@ Each example adds a feature to the site.
 * Javascript - How to add JavaScript
 * Forms - Add a safe form using WTForms
 * Bootstrap - Use twitter bootstrap to make it look nice
+* More templating - Base/child templates, loops, context variable
+
+### Part II
+
+* Infrastructure - How to set up an instance on AWS (pending)
+* Python environment - How to set up python and flask (pending)
+* Nginx - How to serve the site to the internet (pending)
 
 The idea here is to go down the list in order. The first few items are fairly simple. They just show how to structure a site when you're starting a new project. Pay attention to the `templates` and `static` directories. That's where Flask knows to look for stuff.
 
