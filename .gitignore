@@ -1,3 +1,6 @@
+# Custom
+*.swp
+
 # Virtualenv
 */sandbox
 */static/fonts
