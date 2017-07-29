@@ -15,7 +15,7 @@ app.secret_key = b'm\xb7\x12\x97\xb4\x98\x88~\xf4o'
 @app.route('/', methods=['GET', 'POST'])
 def index():
     context = {}
-    context['name'] = 'Microsite'
+    context['name'] = 'More Templates'
     form = MyForm()
 
     try:
