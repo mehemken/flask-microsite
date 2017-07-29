@@ -27,7 +27,11 @@
 	{{ form.name.label }} {{ form.name(size=20) }}
 	<input type="submit" value="Go">
     </form>
-    {{ context.text }}
+    {% for line in context.text %}
+        <ul>
+            <li>{{ line }}</li>
+        </ul>
+    {% endfor %}
 </div> {# col-sm-7 #}
 
 

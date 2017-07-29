@@ -1,9 +1,0 @@
-foo
-bar
-baz
-spam
-eggs
-bacon
-spam
-red leicester
-tilsit

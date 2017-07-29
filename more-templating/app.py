@@ -22,9 +22,12 @@ def index():
 
     try:
         with open('text.txt', 'r') as f:
-            context['text'] = f.read()
+            items = f.readlines()
+            context['text'] = []
+            for line in items:
+                context['text'].append(line)
     except:
-        context['text'] = ''
+        context['text'] = ['empty']
 
     if form.validate_on_submit():
         new_text = request.form['name']
