@@ -1,0 +1,2 @@
+/home/emilio/Documents/AWS/lagonian/cloudformation
+/home/emilio/Documents/git/private/work-machine/terraform/basic
