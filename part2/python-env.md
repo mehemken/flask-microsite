@@ -37,4 +37,4 @@ We're working with Python here and in the long run, it might just be best to use
 
 If you want to run your Flask app on a Windows server, I'd recommend something else. In my brief experience with Ansible, connecting to a Windows host, although doable, is more clunky than connecting to a Linux host. Because Windows does not do SSH. I would also suggest using something like C# and the IIS webserver instead of Flask. Also be prepared to pay 2x the AWS bill in the case of Windows.
 
-First you'll need to install 
+More on this soon.
