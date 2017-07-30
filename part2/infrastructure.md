@@ -70,7 +70,7 @@ CloudFormation is a tool provided by AWS that allows you to describe your infras
 
 Terraform is a tool written by HashiCorp. It aims to be platform agnostic, which allows you to use the same syntax to describe infrastructure on AWS, Google Cloud etc. This one is very easy to use and has some nice features like, letting you see the effects of changes you've made to your code, before you apply them to your live environment. However, it does not provide a nice visualization tool like CloudFormation. And if you use vim, you will get better autoindent with file extension .go instead of the required .tf.
 
-You'll notice in the example below that terraform has count parameter. CloudFormation does not have something like that at the time of writing. And it is actually quite useful. I've been able to write a multipurpose terraform file that creates instances of varying AMIs with a single resource block. You'll also notice some `"${resource.variable}"` clauses in there. Those are quite useful and there are a lot of them.
+You'll notice in the example below that terraform has `count` parameter. CloudFormation does not have something like that at the time of writing. And it is actually quite useful. I've been able to write a multipurpose terraform file that creates instances of varying AMIs with a single resource block. You'll also notice some `"${resource.variable}"` clauses in there. Those are quite useful and there are a lot of them.
 
 ## Terraform Example
 

@@ -35,4 +35,6 @@ The one I'll show here is Ansible for a few reasons.
 
 We're working with Python here and in the long run, it might just be best to use Ansible because new modules can be easily written in Python. You can also write new modules in other languages so if you need that, it's also available. The master/control node connects via SSH which comes with Linux. Some other configuration management tools require you to run a daemon program on your worker nodes which consumes CPU and memory. Anisble requires only that there exists some version of Python on the worker node.
 
-If you want to run your Flask app on a Windows server, I'd recommend something else. In my brief experience with Ansible, connecting to a Windows host, although doable, is more clunky than connecting to a Linux host. I would also suggest using something like C# and the IIS webserver in the case of Windows. Also be prepared to pay 2x the AWS bill in the case of Windows.
+If you want to run your Flask app on a Windows server, I'd recommend something else. In my brief experience with Ansible, connecting to a Windows host, although doable, is more clunky than connecting to a Linux host. Because Windows does not do SSH. I would also suggest using something like C# and the IIS webserver instead of Flask. Also be prepared to pay 2x the AWS bill in the case of Windows.
+
+First you'll need to install 
